@@ -1,0 +1,26 @@
+configuracion de las interfaces de red
+
+	cd /etc/sysconfig/network-scripts
+
+configuracion de la interface de red eth0
+	vi ifcfg-eth0
+
+	DEVICE="eth0"
+	BOOTPROTO="dhcp"
+	NM_CONTROLLED="yes"
+	ONBOOT="yes"
+	TYPE="Ethernet"
+	DNS1=8.8.8.8
+
+configuracion de la interface de red eth1
+	vi ifcfg-eth1
+
+	DEVICE="eth1"
+	IPADDR=10.0.0.72
+	NETMASK=255.255.255.0
+	ONBOOT="yes"
+	TYPE="Ethernet"
+
+cambiar password de root
+	
+	passwd
