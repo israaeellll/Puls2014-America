@@ -2,7 +2,7 @@ configuracion de las interfaces de red
 
 	cd /etc/sysconfig/network-scripts
 
-configuracion de la interface de red eth0
+configuracion de la interface de red eth00
 	vi ifcfg-eth0
 
 	DEVICE="eth0"
